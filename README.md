@@ -1,66 +1,54 @@
-# 🧑‍💻 Proyecto 02 - Administrador de Usuarios en Bash
+🧑‍💻 Project 02 – User Management in Bash
 
-## 📌 Descripción
+📌 Description
+Bash script to automate user management in Linux systems. Features include:
 
-Script Bash para automatizar la gestión de usuarios en sistemas Linux. Permite:
+Create users
+Assign them to groups
+Set permissions for their home directory
+Configure account expiration date
+Log all actions to /var/log/user_admin.log
 
-- Crear usuarios
-- Asignarlos a grupos
-- Establecer permisos de su carpeta personal
-- Configurar fecha de expiración de cuenta
-- Registrar todas las acciones en un log (/var/log/usuario_admin.log)
+This project is part of my specialization in Cybersecurity + Linux Automation, leveraging Bash as a key tool for SysAdmin tasks.
 
-Este proyecto es parte de mi camino de especialización en **Ciberseguridad + Automatización Linux**, aprovechando Bash como herramienta clave para tareas de SysAdmin.
+⚙️ Usage
+sudo ./user_admin.sh -c username -g group -e expiration_date -p permissions
 
----
+📘 Options:
 
-## ⚙️ Uso
+Flag	Description
+-c	Username to create
+-g	Group to assign
+-e	Account expiration date (YYYY-MM-DD)
+-p	Permissions for /home/username (e.g., 700)
+-h	Show help menu
 
-```bash
-sudo ./usuario_admin.sh -c usuario -g grupo -e fecha_expiracion -p permisos
+📝 Example:
 
-📘 Opciones:
+sudo ./user_admin.sh -c john -g networks -e 2025-12-31 -p 700
 
-Flag	Descripción
--c	Nombre del usuario a crear
--g	Grupo al que se asignará
--e	Fecha de expiración de la cuenta (YYYY-MM-DD)
--p	Permisos para /home/usuario (ej: 700)
--h	Mostrar ayuda
+Result:
 
-📝 Ejemplo
+Creates the user john
+Creates and assigns to the group networks (if it doesn’t exist)
+Sets account expiration to December 31, 2025
+Applies 700 permissions to the home directory
+Logs all actions in /var/log/user_admin.log
 
-sudo ./usuario_admin.sh -c juanito -g redes -e 2025-12-31 -p 700
-
-Resultado:
-
-Crea el usuario juanito
-
-Crea y asigna al grupo redes (si no existe)
-
-Expira la cuenta el 31 de diciembre de 2025
-
-Establece permisos 700 en su carpeta personal
-
-Registra todo en /var/log/usuario_admin.log
-
-
-🧠 Comandos utilizados
+🧠 Commands Used
 
 useradd, groupadd, usermod, chage
-
 chmod, chown, getent
-
 getopts, logger, date
 
-📁 Registro de Acciones
+📁 Action Log
 
-Se guarda en: /var/log/usuario_admin.log
+Stored in: /var/log/user_admin.log
 
-Ejemplo de log:
+Example log:
 
-2025-08-06 14:10:02 - Usuario 'juanito' creado exitosamente.
-2025-08-06 14:10:02 - Grupo 'redes' creado.
-2025-08-06 14:10:02 - Usuario 'juanito' agregado al grupo 'redes'.
-2025-08-06 14:10:02 - Cuenta de 'juanito' expirará el 2025-12-31.
-2025-08-06 14:10:02 - Permisos de /home/juanito establecidos en 700.
+2025-08-06 14:10:02 - User 'john' created successfully.
+2025-08-06 14:10:02 - Group 'networks' created.
+2025-08-06 14:10:02 - User 'john' added to group 'networks'.
+2025-08-06 14:10:02 - Account for 'john' will expire on 2025-12-31.
+2025-08-06 14:10:02 - Permissions for /home/john set to 700.
