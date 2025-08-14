@@ -1,4 +1,4 @@
-# 🧑‍💻 Project 02 – User Management in Bash
+# 🧑‍💻 User Management in Bash
 
 📌 Description
 
