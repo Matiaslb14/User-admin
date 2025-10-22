@@ -109,6 +109,19 @@ Example / Ejemplo:
 2025-08-06 14:10:02 - Account for 'john' will expire on 2025-12-31.
 2025-08-06 14:10:02 - Permissions for /home/john set to 700.
 
+
+## 🖼️ Screenshot / Captura de Ejecución  
+
+**EN:**  
+Below is an example of the script running on Kali Linux, showing the creation of a user, group assignment, permission setup, and expiration date configuration.  
+
+**ES:**  
+A continuación se muestra un ejemplo del script ejecutándose en Kali Linux, mostrando la creación de un usuario, asignación de grupo, aplicación de permisos y configuración de la fecha de expiración.  
+
+<p align="center">
+  <img src="./images/user_admin_run.png" width="720"/>
+</p>
+
 📘 Notes / Notas
 
 EN:
