@@ -130,4 +130,4 @@ This project demonstrates secure user administration through Bash scripting, com
 ES:
 Este proyecto demuestra la administración segura de usuarios mediante scripting en Bash, combinando automatización, control de permisos y registro de acciones — habilidades esenciales para ingenieros de sistemas y seguridad.
 
-🧑‍💻 Developed by [Matías Lagos Barra](https://github.com/Matiaslb14) — Linux & Cloud Security Enthusiast.
+👨‍💻 Developed by / Desarrollado por **Matías Lagos Barra** — Cloud & DevSecOps Engineer
