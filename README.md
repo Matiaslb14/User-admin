@@ -1,5 +1,3 @@
-![Project Banner](./images/user_admin_banner.png)
-
 # 🧑‍💻 User Management in Bash  
 ### (Gestión de Usuarios en Bash)
 
