@@ -91,7 +91,7 @@ Then test your connection:
 
 ssh -T git@github.com
 
-ES:
+**ES:**
 Para máquinas recién instaladas (descarga y ejecuta el script directamente):
 
 bash -c 'sudo apt update && sudo apt install -y curl && \
@@ -107,7 +107,7 @@ ssh -T git@github.com
 
 🛠️ Local Usage / Uso Local
 
-EN:
+**EN:**
 
 chmod +x bootstrap_github.sh
 ./bootstrap_github.sh --all
@@ -124,7 +124,7 @@ Options available:
 
 --status-all → show git status -s for all repos
 
-ES:
+**ES:**
 
 chmod +x bootstrap_github.sh
 ./bootstrap_github.sh --all
@@ -152,11 +152,11 @@ Opciones disponibles:
 
 📘 Notes / Notas
 
-EN:
+**EN:**
 This project focuses on reproducibility and speed when setting up a development environment.
 It ensures that your GitHub workspace is fully configured for SSH-based workflows without manual setup.
 
-ES:
+**ES:**
 Este proyecto se centra en la reproducibilidad y rapidez al configurar un entorno de desarrollo.
 Garantiza que tu entorno de trabajo con GitHub esté completamente configurado para flujos basados en SSH sin configuración manual.
 
