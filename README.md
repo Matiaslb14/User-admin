@@ -36,7 +36,7 @@ Run the script with elevated permissions:
 
 sudo ./user_admin.sh -c username -g group -e expiration_date -p permissions
 
-ES:
+**ES:**
 Ejecuta el script con privilegios elevados:
 
 sudo ./user_admin.sh -c usuario -g grupo -e fecha_expiración -p permisos
@@ -53,7 +53,7 @@ sudo ./user_admin.sh -c usuario -g grupo -e fecha_expiración -p permisos
 
 📝 Example / Ejemplo
 
-EN:
+**EN:**
 
 sudo ./user_admin.sh -c john -g networks -e 2025-12-31 -p 700
 
@@ -69,7 +69,7 @@ Applies 700 permissions to the home directory
 
 Logs all actions in /var/log/user_admin.log
 
-ES:
+**ES:**
 
 sudo ./user_admin.sh -c john -g redes -e 2025-12-31 -p 700
 
@@ -95,10 +95,10 @@ Registra todas las acciones en /var/log/user_admin.log
 
 📁 Action Log / Registro de Acciones
 
-EN:
+**EN:**
 Stored in: /var/log/user_admin.log
 
-ES:
+**ES:**
 Ubicado en: /var/log/user_admin.log
 
 Example / Ejemplo:
@@ -111,20 +111,20 @@ Example / Ejemplo:
 
 🖼️ Screenshot / Captura de Ejecución
 
-EN:
+**EN:**
 Below is an example of the script running on Kali Linux, showing the creation of a user, group assignment, permission setup, and expiration date configuration.
 
-ES:
+**ES:**
 A continuación se muestra un ejemplo del script ejecutándose en Kali Linux, mostrando la creación de un usuario, asignación de grupo, aplicación de permisos y configuración de la fecha de expiración.
 
 <p align="center"> <img src="./images/user_admin_run.png" width="720"/> </p>
 
 📘 Notes / Notas
 
-EN:
+**EN:**
 This project demonstrates secure user administration through Bash scripting, combining automation, permissions control, and logging — essential skills for system and security engineers.
 
-ES:
+**ES:**
 Este proyecto demuestra la administración segura de usuarios mediante scripting en Bash, combinando automatización, control de permisos y registro de acciones — habilidades esenciales para ingenieros de sistemas y seguridad.
 
 👨‍💻 Developed by / Desarrollado por
